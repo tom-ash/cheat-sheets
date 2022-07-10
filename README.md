@@ -1,10 +1,10 @@
 # JavaScript For Loop Cheat Sheet
 This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/javascript-for-loop).
 
-## 1. ES1 Classic For Loop
+## ES1 Classic For Loop
 The classic for loop was introduced in ES1.
 
-### 1.1 Syntax
+### > Syntax
 The classic ES1 for loop is constructed through using the `for` keyword, the three initialization statements and the loop body.
 ```
 for (statement_1, statement_2, statement_3) {

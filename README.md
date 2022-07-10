@@ -13,7 +13,23 @@ for (statement_1, statement_2, statement_3) {
 ```
 `statement_1` initializes values. `statement_2` specifies conditions for the initialized values. `statement_3` changes the initialized values. The loop continues until `statement_2` conditions are no longer met.
 ```JavaScript
-for (let i = 0; i < 6; i++) {
+for (var i = 0; i < 6; i++) {
   console.log(i)
 } // 0 1 2 3 4 5
 ```
+
+### Usage
+The classic ES1 for loop can be used in multitude of scenarios. For example it can be used to iterate over an array or a string.
+```JavaScript
+const foo = 'bar'
+
+for (var i = 0; i < foo.length; i++) {
+  console.log(foo[i])
+} // b a r
+```
+
+### Returning
+Using the `return` keyword within the block of the classic ES1 for loop throws `Uncaught SyntaxError: Illegal return statement`.
+
+### Breaking
+The classic ES1 for loop can be halted using the `break` keyword.

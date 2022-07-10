@@ -45,6 +45,7 @@ The for...in loop was introduced in ES1.
 ### Syntax
 The ES1 for...in loop is constructed through using the `for` keyword, a loop key name, the keyword `in` and the object.
 
+```JavaScript
 const captains = {
   picard: 'Enterprise',
   sisko: 'Deep Space 9',
@@ -54,6 +55,7 @@ const captains = {
 for (var captain in captains) {
   console.log(captain)
 }  // picard sisko janeway
+```
 
 ### Usage
 The ES1 for...in loop can be used to loop over object keys when the order of the keys is not important as the order is not guaranteed by the ES1 for...in loop.

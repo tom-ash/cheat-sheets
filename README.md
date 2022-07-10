@@ -37,6 +37,8 @@ Using the `return` keyword within the block of the classic ES1 for loop throws `
 ### Breaking
 The classic ES1 for loop can be halted using the `break` keyword.
 
+---
+
 ## ES1 for...in Loop
 The for...in loop was introduced in ES1.
 
@@ -62,31 +64,13 @@ Using the `return` keyword within the block of the ES1 for...in loop throws `Unc
 ### Breaking
 The ES1 for...in loop can be halted using the `break` keyword.
 
+---
+
 ## ES5 forEach Loop
 Incoming
 
-
-
-
-
-
-
+---
 
 ## ES6 for...of Loop
 Incoming
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

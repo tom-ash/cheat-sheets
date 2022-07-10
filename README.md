@@ -1,10 +1,10 @@
 # JavaScript For Loop Cheat Sheet
 This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/javascript-for-loop).
 
-## ES1 Classic For Loop
+## 1. ES1 Classic For Loop
 The classic for loop was introduced in ES1.
 
-### Syntax
+### 1.1 Syntax
 The classic ES1 for loop is constructed through using the `for` keyword, the three initialization statements and the loop body.
 ```
 for (statement_1, statement_2, statement_3) {
@@ -18,7 +18,7 @@ for (var i = 0; i < 6; i++) {
 } // 0 1 2 3 4 5
 ```
 
-### Usage
+### 1.2 Usage
 The classic ES1 for loop can be used in multitude of scenarios. For example it can be used to iterate over an array or a string.
 ```JavaScript
 const foo = 'bar'
@@ -28,8 +28,8 @@ for (var i = 0; i < foo.length; i++) {
 } // b a r
 ```
 
-### Returning
+### 1.3 Returning
 Using the `return` keyword within the block of the classic ES1 for loop throws `Uncaught SyntaxError: Illegal return statement`.
 
-### Breaking
+### 1.4 Breaking
 The classic ES1 for loop can be halted using the `break` keyword.

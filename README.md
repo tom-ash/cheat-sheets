@@ -31,8 +31,7 @@ for (var i = 0; i < foo.length; i++) {
 ```
 
 ### Returning
-Using the `return` keyword within the block of the classic ES1 for loop throws `
-`.
+Using the `return` keyword within the block of the classic ES1 for loop throws `Uncaught SyntaxError: Illegal return statement`.
 
 ### Breaking
 The classic ES1 for loop can be halted using the `break` keyword.

@@ -42,18 +42,18 @@ The classic ES1 for loop can be halted using the `break` keyword.
 The for...in loop was introduced in ES1.
 
 ### Syntax
-The ES1 for...in loop is constructed through using the `for` keyword, a loop key name, the keyword `in` and the object.
+The ES1 for...in loop is constructed through using the `for` keyword, a loop key variable name, the keyword `in` and the object reference.
 
 ```JavaScript
 const captains = {
   picard: 'Enterprise',
-  sisko: 'Deep Space 9',
-  janeway: 'Voyager'
+  hook: 'Jolly Roger',
+  blackbeard: 'Queen Anne\'s Revenge'
 }
 
 for (var captain in captains) {
   console.log(captain)
-}  // picard sisko janeway
+}  // picard hook blackbeard
 ```
 
 ### Usage
@@ -68,10 +68,9 @@ The ES1 for...in loop can be halted using the `break` keyword.
 ---
 
 ## ES5 forEach Loop
-Incoming
+Incoming...
 
 ---
 
 ## ES6 for...of Loop
-Incoming
-
+Incoming...

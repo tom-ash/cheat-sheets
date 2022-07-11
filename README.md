@@ -88,6 +88,7 @@ The `for...of` loop is constructed through using:
 * a variable for the currently iterated value,
 * the keyword `in`, and
 * the iterable object.
+
 ```JavaScript
 const horses = ["Roach", "Kelpie", "Bucephalus"]
 
@@ -100,7 +101,9 @@ for (const horse of horses) {
 The ES6 `for...of` loop iterates over iterable values of **iterable objects** (i.e. objects that implement **iterable** protocol) such as:
 * instances of `String`, `Array`, `NodeList`, `Map` and `Set`,
 * function arguments.
-As opposed to for...in loop the for...of loop does not take into account **enumerable properties** of an object but **iterable values** of the object i.e. values defined to be iterated over.
+
+As opposed to `for...in` loop the `for...of` loop does not take into account **enumerable properties** of an object but **iterable values** of the object i.e. values defined to be iterated over.
+
 ```JavaScript
 const horses = ["Roach", "Kelpie", "Bucephalus"]
 horses['unicorn'] = "Ihuarraquax"
@@ -109,13 +112,13 @@ for (const horse of horses) {
   console.log(horse)
 } // Roach Kelpie Bucephalus
 
-
 const theWitcher = 'Geralt'
 
 for (const letter of theWitcher) {
   console.log(letter)
 } // G e r a l t
 ```
+
 It is possible to create a custom iterable object using:
 * an implementation of iterable protocol, or
 * a generator function.

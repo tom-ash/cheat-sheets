@@ -1,6 +1,8 @@
 # JavaScript For Loop Cheat Sheet
 This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/javascript-for-loop).
 
+#### Table of Contents
+
 1. [Section 1](#es1-classic-for-loop)
 2. [Section 2](#section-2)
     - [Subsection a](#subsection-a)

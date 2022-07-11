@@ -3,7 +3,7 @@ This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/java
 
 #### Table of Contents
 
-1. [Section 1](#es1-classic-for-loop)
+1. [ES1 Classic For Loop](#es1-classic-for-loop)
 2. [Section 2](#section-2)
     - [Subsection a](#subsection-a)
     - [Subsection b](#subsection-b)

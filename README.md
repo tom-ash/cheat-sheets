@@ -1,13 +1,6 @@
 # JavaScript For Loop Cheat Sheet
 This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/javascript-for-loop).
 
-#### Table of Contents
-
-1. [ES1 Classic For Loop](#es1-classic-for-loop)
-2. [Section 2](#section-2)
-    - [Subsection a](#subsection-a)
-    - [Subsection b](#subsection-b)
-
 ---
 
 ## ES1 Classic For Loop
@@ -75,7 +68,30 @@ The ES1 for...in loop can be halted using the `break` keyword.
 ---
 
 ## ES5 forEach Loop
-Incoming...
+The `forEach` Array instance method was introduced in ES5.
+
+### Syntax
+The `forEach` method is being called on an array and iterates over the array values in ascendance order using a callback function which parameters are the currently iterated value, index and the array as a whole.
+
+```JavaScript
+const ships = ['Enterprise', 'Jolly Roger', 'Queen Anne\'s Revenge']
+
+ships.forEach((ship, index, arr) => {
+  console.log(ship, index, arr)
+})
+// Enterprise 0 (3) ['Enterprise', 'Jolly Roger', "Queen Anne's Revenge"]
+// Jolly Roger 1 (3) ['Enterprise', 'Jolly Roger', "Queen Anne's Revenge"]
+// Queen Anne's Revenge 2 (3) ['Enterprise', 'Jolly Roger', "Queen Anne's Revenge"]
+```
+
+### Usage
+The ES5 `forEach` array method ensures that values are being iterated over in the order of the array numeric index. Therefore the ES5 `forEach` is suited to loop over an array as opposed to the ES1 `for...in` loop.
+
+### Returning
+It is allowed to explicitly return within the `forEach` callback function which transitions to the next loop iteration but does not stop the loop as a whole.
+
+### Breaking
+The way to break the `forEach` loop is to throw an exception. Using the `break` keyword is not allowed.
 
 ---
 
